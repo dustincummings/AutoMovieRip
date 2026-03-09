@@ -1,0 +1,82 @@
+[2/22/2026 1:04:54 PM] === AutoRip Started ===
+[2/22/2026 1:04:54 PM] Starting MakeMKV scan...
+[2/22/2026 1:13:23 PM] MakeMKV scan completed. Parsing...
+[2/22/2026 1:13:23 PM] Detected disc name: WILLY WONKA AND THE CHOCOLATE FACTORY
+[2/22/2026 1:13:36 PM] MakeMKV found 1 valid titles.
+[2/22/2026 1:13:36 PM] Beginning main execution flow...
+[2/22/2026 1:13:50 PM] Detecting movie versions...
+[2/22/2026 1:13:50 PM] Only one valid title no version suffix required.
+[2/22/2026 1:13:50 PM] Ripping movie disc: Willy Wonka & the Chocolate Factory (1971)
+[2/22/2026 1:13:50 PM] Created movie folder: C:\Users\dusti\Videos\Willy Wonka & the Chocolate Factory (1971)
+[2/22/2026 1:13:50 PM] Ripping title 0 to: C:\Users\dusti\Videos\Willy Wonka & the Chocolate Factory (1971)\Willy Wonka & the Chocolate Factory (1971).mkv
+[2/22/2026 1:14:17 PM] Running: "C:\Program Files (x86)\MakeMKV\makemkvcon.exe" mkv disc:0 0 "C:\Users\dusti\Videos\Willy Wonka & the Chocolate Factory (1971)" --minlength=120 --subtitle=eng
+[2/22/2026 1:41:59 PM] Renaming ripped file: WILLY WONKA AND THE CHOCOLATE FACTORY-B2_t00.mkv Willy Wonka & the Chocolate Factory (1971).mkv
+[2/22/2026 1:42:00 PM] Generating summary...
+[2/22/2026 1:42:00 PM] ===============================================
+[2/22/2026 1:42:00 PM]  AutoRip Summary
+[2/22/2026 1:42:00 PM] ===============================================
+[2/22/2026 1:42:00 PM] Disc Name: WILLY WONKA AND THE CHOCOLATE FACTORY
+[2/22/2026 1:42:00 PM] Disc Type: Movie
+[2/22/2026 1:42:00 PM] Year: 1971
+[2/22/2026 1:42:00 PM] Movie Title: WILLY WONKA AND THE CHOCOLATE FACTORY
+[2/22/2026 1:42:00 PM] 
+[2/22/2026 1:42:00 PM] Ripped Versions:
+[2/22/2026 1:42:00 PM]   Title 0: (Theatrical)
+[2/22/2026 1:42:00 PM] 
+[2/22/2026 1:42:00 PM] Output Files:
+[2/22/2026 1:42:00 PM]   [2/22/2026 1:13:50 PM] Ripping movie disc: Willy Wonka & the Chocolate Factory (1971)
+[2/22/2026 1:42:00 PM]   [2/22/2026 1:13:50 PM] Ripping title 0 to: C:\Users\dusti\Videos\Willy Wonka & the Chocolate Factory (1971)\Willy Wonka & the Chocolate Factory (1971).mkv
+[2/22/2026 1:42:00 PM]   [2/22/2026 1:14:17 PM] Running: "C:\Program Files (x86)\MakeMKV\makemkvcon.exe" mkv disc:0 0 "C:\Users\dusti\Videos\Willy Wonka & the Chocolate Factory (1971)" --minlength=120 --subtitle=eng
+[2/22/2026 1:42:00 PM]   MakeMKV v1.18.3 win(x86-release) started
+[2/22/2026 1:42:00 PM]   You are running a 32-bit (x86) version of a program. Eventually this will be deprecated in upcoming versions, please upgrade to a processor manufactured during last 10 years...
+[2/22/2026 1:42:00 PM]   Using direct disc access mode
+[2/22/2026 1:42:00 PM]   Title #1 was added (43 cell(s), 1:39:18)
+[2/22/2026 1:42:00 PM]   Title #2 has length of 12 seconds which is less than minimum title length of 120 seconds and was therefore skipped
+[2/22/2026 1:42:00 PM]   Title #3 has length of 29 seconds which is less than minimum title length of 120 seconds and was therefore skipped
+[2/22/2026 1:42:00 PM]   Title #4 has length of 32 seconds which is less than minimum title length of 120 seconds and was therefore skipped
+[2/22/2026 1:42:00 PM]   Title #5 was added (1 cell(s), 0:30:25)
+[2/22/2026 1:42:00 PM]   Title #6 was added (1 cell(s), 0:03:08)
+[2/22/2026 1:42:00 PM]   Title #7 was added (1 cell(s), 0:04:03)
+[2/22/2026 1:42:00 PM]   Cells 4-6 were removed from title end
+[2/22/2026 1:42:00 PM]   Title #8 was added (3 cell(s), 0:08:17)
+[2/22/2026 1:42:00 PM]   Title #9 was added (1 cell(s), 0:02:53)
+[2/22/2026 1:42:00 PM]   Title #10 was added (1 cell(s), 0:03:36)
+[2/22/2026 1:42:00 PM]   Title #11 has length of 118 seconds which is less than minimum title length of 120 seconds and was therefore skipped
+[2/22/2026 1:42:00 PM]   Title #12 has length of 53 seconds which is less than minimum title length of 120 seconds and was therefore skipped
+[2/22/2026 1:42:00 PM]   Title #13 has length of 9 seconds which is less than minimum title length of 120 seconds and was therefore skipped
+[2/22/2026 1:42:00 PM]   Audio stream #5 in title #5 looks empty and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #9 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #10 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #11 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Audio stream #6 in title #6 looks empty and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #9 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #10 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #11 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Audio stream #5 in title #7 looks empty and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #9 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #10 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #11 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Audio stream #5 in title #8 looks empty and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #9 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #10 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #11 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Audio stream #5 in title #9 looks empty and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #9 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #10 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #11 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Audio stream #5 in title #10 looks empty and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #9 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #10 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Subtitle stream #11 is identical to stream #8 and was skipped
+[2/22/2026 1:42:00 PM]   Operation successfully completed
+[2/22/2026 1:42:00 PM]   Saving 1 titles into directory file://C:\Users\dusti\Videos\Willy Wonka & the Chocolate Factory (1971)
+[2/22/2026 1:42:00 PM]   1 titles saved
+[2/22/2026 1:42:00 PM]   Copy complete. 1 titles saved.
+[2/22/2026 1:42:00 PM]   [2/22/2026 1:41:59 PM] Renaming ripped file: WILLY WONKA AND THE CHOCOLATE FACTORY-B2_t00.mkv Willy Wonka & the Chocolate Factory (1971).mkv
+[2/22/2026 1:42:00 PM]   C:\Users\dusti\Videos\Willy Wonka & the Chocolate Factory (1971)\Willy Wonka & the Chocolate Factory (1971).mkv
+[2/22/2026 1:42:00 PM] ===============================================
+[2/22/2026 1:42:00 PM]  AutoRip Completed Successfully
+[2/22/2026 1:42:00 PM] ===============================================
+[2/22/2026 1:42:00 PM] Prompting user for disc eject...
+[2/22/2026 1:43:14 PM] Ejecting disc...
+[2/22/2026 1:43:15 PM] === AutoRip Completed ===

@@ -1,0 +1,13 @@
+[2/15/2026 2:09:16 PM] === AutoRip Started ===
+[2/15/2026 2:09:16 PM] Starting MakeMKV scan...
+[2/15/2026 2:10:10 PM] MakeMKV scan completed. Parsing...
+[2/15/2026 2:10:10 PM] Detected disc name: GI_JOE_AC
+[2/15/2026 2:11:31 PM] MakeMKV found 1 valid titles.
+[2/15/2026 2:11:31 PM] Beginning main execution flow...
+[2/15/2026 2:11:35 PM] Detecting movie versions...
+[2/15/2026 2:11:35 PM] Only one valid title no version suffix required.
+[2/15/2026 2:11:35 PM] Ripping movie disc: G.I. Joe: The Rise of Cobra (2009)
+[2/15/2026 2:11:40 PM] Created movie folder: F:\Movies\G.I. Joe- The Rise of Cobra (2009)
+[2/15/2026 2:11:48 PM] Ripping title 0 to: 
+[2/15/2026 2:11:48 PM] Running: "C:\Program Files (x86)\MakeMKV\makemkvcon.exe" mkv disc:0 0 "" --minlength=120 --subtitle=eng
+[2/15/2026 2:11:53 PM] ERROR: MakeMKV did not produce an output file for title 0.

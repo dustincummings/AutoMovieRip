@@ -1,0 +1,61 @@
+[2/15/2026 2:02:59 PM] === AutoRip Started ===
+[2/15/2026 2:02:59 PM] Starting MakeMKV scan...
+[2/15/2026 2:03:56 PM] MakeMKV scan completed. Parsing...
+[2/15/2026 2:03:56 PM] Detected disc name: GI_JOE_AC
+[2/15/2026 2:04:12 PM] MakeMKV found 1 valid titles.
+[2/15/2026 2:04:12 PM] Beginning main execution flow...
+[2/15/2026 2:04:36 PM] Detecting movie versions...
+[2/15/2026 2:04:36 PM] Only one valid title no version suffix required.
+[2/15/2026 2:04:36 PM] Ripping movie disc: G.I. Joe: The Rise of Cobra (2009)
+[2/15/2026 2:04:36 PM] Created movie folder: F:\Movies\G.I. Joe- The Rise of Cobra (2009)
+[2/15/2026 2:04:36 PM] Ripping title 0 to: 
+[2/15/2026 2:04:36 PM] Running: "C:\Program Files (x86)\MakeMKV\makemkvcon.exe" mkv disc:0 0 "" --minlength=120 --subtitle=eng
+[2/15/2026 2:04:42 PM] ERROR: MakeMKV did not produce an output file for title 0.
+[2/15/2026 2:04:42 PM] Generating summary...
+[2/15/2026 2:04:42 PM] ===============================================
+[2/15/2026 2:04:42 PM]  AutoRip Summary
+[2/15/2026 2:04:42 PM] ===============================================
+[2/15/2026 2:04:42 PM] Disc Name: GI Joe
+[2/15/2026 2:04:42 PM] Disc Type: Movie
+[2/15/2026 2:04:42 PM] Year: 2009
+[2/15/2026 2:04:42 PM] Movie Title: GI Joe
+[2/15/2026 2:04:42 PM] 
+[2/15/2026 2:04:42 PM] Ripped Versions:
+[2/15/2026 2:04:42 PM]   Title 0: (Theatrical)
+[2/15/2026 2:04:42 PM] 
+[2/15/2026 2:04:42 PM] Output Files:
+[2/15/2026 2:04:42 PM]   [2/15/2026 2:04:36 PM] Ripping movie disc: G.I. Joe: The Rise of Cobra (2009)
+[2/15/2026 2:04:42 PM]   [2/15/2026 2:04:36 PM] Ripping title 0 to: 
+[2/15/2026 2:04:42 PM]   [2/15/2026 2:04:36 PM] Running: "C:\Program Files (x86)\MakeMKV\makemkvcon.exe" mkv disc:0 0 "" --minlength=120 --subtitle=eng
+[2/15/2026 2:04:42 PM]   MakeMKV v1.18.3 win(x86-release) started
+[2/15/2026 2:04:42 PM]   You are running a 32-bit (x86) version of a program. Eventually this will be deprecated in upcoming versions, please upgrade to a processor manufactured during last 10 years...
+[2/15/2026 2:04:42 PM]   Use: makemkvcon [switches] Command [Parameters]
+[2/15/2026 2:04:42 PM]   
+[2/15/2026 2:04:42 PM]   Commands:
+[2/15/2026 2:04:42 PM]     info <source>
+[2/15/2026 2:04:42 PM]         prints info about disc
+[2/15/2026 2:04:42 PM]     mkv <source> <title id> <destination folder>
+[2/15/2026 2:04:42 PM]         saves a single title to mkv file
+[2/15/2026 2:04:42 PM]     backup <source> <destination folder>
+[2/15/2026 2:04:42 PM]         backs up disc to a hard drive
+[2/15/2026 2:04:42 PM]     f <args>
+[2/15/2026 2:04:42 PM]         run universal firmware tool
+[2/15/2026 2:04:42 PM]     reg <key string or file name>
+[2/15/2026 2:04:42 PM]         enter registration key into program
+[2/15/2026 2:04:42 PM]   
+[2/15/2026 2:04:42 PM]   Source specification:
+[2/15/2026 2:04:42 PM]     iso:<FileName>    - open iso image <FileName>
+[2/15/2026 2:04:42 PM]     file:<FolderName> - open files in folder <FolderName>
+[2/15/2026 2:04:42 PM]     disc:<DiscId>     - open disc with id <DiscId> (see list Command)
+[2/15/2026 2:04:42 PM]     dev:<DeviceName>  - open disc with OS device name <DeviceName>
+[2/15/2026 2:04:42 PM]   
+[2/15/2026 2:04:42 PM]   Switches:
+[2/15/2026 2:04:42 PM]     -r --robot        - turn on "robot" mode, see http://www.makemkv.com/developers
+[2/15/2026 2:04:42 PM]   [2/15/2026 2:04:42 PM] ERROR: MakeMKV did not produce an output file for title 0.
+[2/15/2026 2:04:42 PM]   F:\Movies\G.I. Joe- The Rise of Cobra (2009)\G.I. Joe- The Rise of Cobra (2009).mkv
+[2/15/2026 2:04:42 PM] ===============================================
+[2/15/2026 2:04:42 PM]  AutoRip Completed Successfully
+[2/15/2026 2:04:42 PM] ===============================================
+[2/15/2026 2:04:42 PM] Prompting user for disc eject...
+[2/15/2026 2:04:59 PM] User chose not to eject disc.
+[2/15/2026 2:04:59 PM] === AutoRip Completed ===

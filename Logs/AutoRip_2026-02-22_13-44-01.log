@@ -1,0 +1,34 @@
+[2/22/2026 1:44:01 PM] === AutoRip Started ===
+[2/22/2026 1:44:01 PM] Starting MakeMKV scan...
+[2/22/2026 1:46:32 PM] MakeMKV scan completed. Parsing...
+[2/22/2026 1:46:32 PM] Detected disc name: Unknown_Disc
+[2/22/2026 1:48:39 PM] MakeMKV found 0 valid titles.
+[2/22/2026 1:48:39 PM] Beginning main execution flow...
+[2/22/2026 1:51:18 PM] Using HandBrake fallback titles...
+[2/22/2026 1:51:18 PM] Starting HandBrakeCLI fallback scan...
+[2/22/2026 1:51:25 PM] HandBrakeCLI fallback scan failed.
+[2/22/2026 1:52:26 PM] Detecting movie versions...
+[2/22/2026 1:52:26 PM] Assigned Theatrical to title .
+[2/22/2026 1:52:26 PM] Ripping movie disc: Charlie and the Chocolate Factory (2005)
+[2/22/2026 1:52:26 PM] Generating summary...
+[2/22/2026 1:52:26 PM] ===============================================
+[2/22/2026 1:52:26 PM]  AutoRip Summary
+[2/22/2026 1:52:26 PM] ===============================================
+[2/22/2026 1:52:26 PM] Disc Name: Charlie and the chocolate factory
+[2/22/2026 1:52:26 PM] Disc Type: Movie
+[2/22/2026 1:52:26 PM] Year: 2005
+[2/22/2026 1:52:26 PM] Movie Title: Charlie and the chocolate factory
+[2/22/2026 1:52:26 PM] 
+[2/22/2026 1:52:26 PM] Ripped Versions:
+[2/22/2026 1:52:26 PM]   Title : (Theatrical)
+[2/22/2026 1:52:26 PM]   Title : (Theatrical)
+[2/22/2026 1:52:26 PM]   Title : (Theatrical)
+[2/22/2026 1:52:26 PM] 
+[2/22/2026 1:52:26 PM] Output Files:
+[2/22/2026 1:52:26 PM]   [2/22/2026 1:52:26 PM] Ripping movie disc: Charlie and the Chocolate Factory (2005)
+[2/22/2026 1:52:26 PM] ===============================================
+[2/22/2026 1:52:26 PM]  AutoRip Completed Successfully
+[2/22/2026 1:52:26 PM] ===============================================
+[2/22/2026 1:52:26 PM] Prompting user for disc eject...
+[2/22/2026 1:53:01 PM] Ejecting disc...
+[2/22/2026 1:53:01 PM] === AutoRip Completed ===

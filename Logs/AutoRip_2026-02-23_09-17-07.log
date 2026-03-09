@@ -1,0 +1,45 @@
+[2/23/2026 9:17:07 AM] === AutoRip Started ===
+[2/23/2026 9:17:07 AM] Starting MakeMKV scan...
+[2/23/2026 9:18:20 AM] MakeMKV scan completed. Parsing...
+[2/23/2026 9:18:20 AM] Detected disc name: RETURN_OF_THE_KING
+[2/23/2026 9:20:09 AM] MakeMKV found 1 valid titles.
+[2/23/2026 9:20:09 AM] Beginning main execution flow...
+[2/23/2026 9:20:13 AM] Detecting movie versions...
+[2/23/2026 9:20:13 AM] Only one valid title no version suffix required.
+[2/23/2026 9:20:13 AM] Ripping movie disc:  ()
+[2/23/2026 9:20:13 AM] Created movie folder: C:\Users\dusti\Videos\ ()
+[2/23/2026 9:20:13 AM] Ripping title 0 to: C:\Users\dusti\Videos\ ()\ ().mkv
+[2/23/2026 9:20:13 AM] Running: "C:\Program Files (x86)\MakeMKV\makemkvcon.exe" mkv disc:0 0 "C:\Users\dusti\Videos\ ()" --minlength=120 --subtitle=eng
+[2/23/2026 9:56:58 AM] Renaming ripped file: A1_t00.mkv  ().mkv
+[2/23/2026 9:56:59 AM] Generating summary...
+[2/23/2026 9:56:59 AM] ===============================================
+[2/23/2026 9:56:59 AM]  AutoRip Summary
+[2/23/2026 9:56:59 AM] ===============================================
+[2/23/2026 9:56:59 AM] Disc Name: Lord of the Rings - Return of the King
+[2/23/2026 9:56:59 AM] Disc Type: Movie
+[2/23/2026 9:56:59 AM] Year: 
+[2/23/2026 9:56:59 AM] Movie Title: Lord of the Rings - Return of the King
+[2/23/2026 9:56:59 AM] 
+[2/23/2026 9:56:59 AM] Ripped Versions:
+[2/23/2026 9:56:59 AM]   Title 0: (Theatrical)
+[2/23/2026 9:56:59 AM] 
+[2/23/2026 9:56:59 AM] Output Files:
+[2/23/2026 9:56:59 AM]   [2/23/2026 9:20:13 AM] Ripping movie disc:  ()
+[2/23/2026 9:56:59 AM]   [2/23/2026 9:20:13 AM] Ripping title 0 to: C:\Users\dusti\Videos\ ()\ ().mkv
+[2/23/2026 9:56:59 AM]   [2/23/2026 9:20:13 AM] Running: "C:\Program Files (x86)\MakeMKV\makemkvcon.exe" mkv disc:0 0 "C:\Users\dusti\Videos\ ()" --minlength=120 --subtitle=eng
+[2/23/2026 9:56:59 AM]   MakeMKV v1.18.3 win(x86-release) started
+[2/23/2026 9:56:59 AM]   You are running a 32-bit (x86) version of a program. Eventually this will be deprecated in upcoming versions, please upgrade to a processor manufactured during last 10 years...
+[2/23/2026 9:56:59 AM]   Using direct disc access mode
+[2/23/2026 9:56:59 AM]   Title #1 was added (62 cell(s), 3:20:32)
+[2/23/2026 9:56:59 AM]   Operation successfully completed
+[2/23/2026 9:56:59 AM]   Saving 1 titles into directory file://C:\Users\dusti\Videos\ ()
+[2/23/2026 9:56:59 AM]   1 titles saved
+[2/23/2026 9:56:59 AM]   Copy complete. 1 titles saved.
+[2/23/2026 9:56:59 AM]   [2/23/2026 9:56:58 AM] Renaming ripped file: A1_t00.mkv  ().mkv
+[2/23/2026 9:56:59 AM]   C:\Users\dusti\Videos\ ()\ ().mkv
+[2/23/2026 9:56:59 AM] ===============================================
+[2/23/2026 9:56:59 AM]  AutoRip Completed Successfully
+[2/23/2026 9:56:59 AM] ===============================================
+[2/23/2026 9:56:59 AM] Prompting user for disc eject...
+[2/23/2026 9:56:59 AM] User chose not to eject disc.
+[2/23/2026 9:56:59 AM] === AutoRip Completed ===
