@@ -1,0 +1,16 @@
+# Windows junk
+Thumbs.db
+Desktop.ini
+
+# PowerShell ISE backups
+*.ps1~*
+
+# Logs
+*.log
+
+# VS Code settings (optional)
+.vscode/
+
+# Ignore compiled PowerShell modules
+*.psd1
+*.psm1
