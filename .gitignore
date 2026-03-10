@@ -7,7 +7,7 @@ Desktop.ini
 
 # Logs
 *.log
-
+Logs/
 # VS Code settings (optional)
 .vscode/
 
