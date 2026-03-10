@@ -7,7 +7,7 @@ Desktop.ini
 
 # Logs
 *.log
-Logs/
+Logs/MakeMKV_Scan_*.txt
 # VS Code settings (optional)
 .vscode/
 
