@@ -48,21 +48,21 @@ foreach ($line in $output) {
     #---------------------------------
     # TITLE HEADER
     #---------------------------------
-   if ($line -match '^TINFO:(\d+),') {
+   if ($line -match '^TINFO:(\d+),2,') {
         $currentID = [int]$Matches[1]
         $currentTrackType = $null
 
         if (-not $Titles.ContainsKey($currentID)) {
             $Titles[$currentID] = [ordered]@{
-                ID = $currentID
-                Runtime = $null 
-                Chapters = $null 
-                SizeMB = $null 
-                CellMap = $null 
-                Audio = @() 
-                Subtitles = @() 
-                VideoRes = $null
-                Valid = $false
+                ID          = $currentID
+                Runtime     = $null 
+                Chapters    = $null 
+                SizeMB      = $null 
+                CellMap     = $null 
+                Audio       = @() 
+                Subtitles   = @() 
+                VideoRes    = $null
+                Valid       = $false
             }
         }
         continue
@@ -70,42 +70,49 @@ foreach ($line in $output) {
 
     if ($null -eq $currentID) { continue }
 
-    # Runtime
-    if ($line -match '^TINFO:\d+,9,0,"(.+)"') {
+   # Runtime
+    if ($line -match '^TINFO:\d+,9,\d+,"([^"]+)"') {
         $Titles[$currentID].Runtime = Convert-RuntimeToSeconds $Matches[1]
     }
+
     # Chapters
-    if ($line -match '^TINFO:\d+,8,0,"(\d+)"') {
+    if ($line -match '^TINFO:\d+,8,\d+,"(\d+)"') {
         $Titles[$currentID].Chapters = [int]$Matches[1]
     }
-    # Size
-    if ($line -match '^TINFO:\d+,11,0,"(.+)"') {
+
+    # Size (human readable)
+    if ($line -match '^TINFO:\d+,10,\d+,"([^"]+)"') {
         $Titles[$currentID].SizeMB = Convert-SizeToMB $Matches[1]
     }
-    # Cell Map (DVD only)
-    if ($line -match '^TINFO:\d+,26,0,"(.+)"') {
+    # Size (bytes)
+    elseif ($line -match '^TINFO:\d+,11,\d+,"(\d+)"') {
+        $Titles[$currentID].SizeMB = [math]::Round(($Matches[1] / 1MB), 2)
+    }
+
+    # Cell Map
+    if ($line -match '^TINFO:\d+,26,\d+,"(.+)"') {
         $Titles[$currentID].CellMap = $Matches[1]
     }
 
-    # Video resolution (DVD & Blu-ray)
-    if ($line -match '^SINFO:\d+,0,19,0,"(\d+)x(\d+)"') {
+    # Video resolution
+    if ($line -match '^SINFO:\d+,\d+,19,\d+,"(\d+)x(\d+)') {
         $Titles[$currentID].VideoRes = "$($Matches[1])x$($Matches[2])"
     }
 
-    # Audio Header
+    # Audio header
     if ($line -match '^SINFO:\d+,\d+,1,6202,"Audio"') {
         $currentTrackType = 'Audio'
         continue
     }
 
-    # Subtitle Header
+    # Subtitle header
     if ($line -match '^SINFO:\d+,\d+,1,6203,"Subtitles"') {
         $currentTrackType = 'Subtitles'
         continue
     }
 
     # Audio/Subtitles description
-    if ($line -match '^SINFO:\d+,\d+,30,0,"(.+)"') {
+    if ($line -match '^SINFO:\d+,\d+,30,\d+,"([^"]+)"') {
         switch ($currentTrackType) {
             'Audio'     { $Titles[$currentID].Audio     += $Matches[1] }
             'Subtitles' { $Titles[$currentID].Subtitles += $Matches[1] }
